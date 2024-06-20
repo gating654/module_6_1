@@ -6,7 +6,7 @@ class Animal:
 
     def eat(self, food):
         if Flower:
-            alive
+            alive = False
             print(f"{self.name} не стал есть {food.name}")
 
         else:
@@ -47,4 +47,5 @@ a1.eat(p1)
 a2.eat(p2)
 print(a1.alive)
 print(a2.fed)
+
 
