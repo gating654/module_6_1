@@ -5,7 +5,7 @@ class Animal:
         self.fed = False
 
     def eat(self, food):
-        if food.edible == False:
+        if not food.edible:
             print(f"{self.name} не стал есть {food.name}")
             self.alive = False
 
